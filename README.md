@@ -1,1 +1,1 @@
-# rsschool-cv
+# <https://webdevolgashvez.github.io/rsschool-cv>
