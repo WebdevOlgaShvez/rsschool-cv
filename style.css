@@ -61,7 +61,25 @@
     margin-bottom: 1rem;
   }
   footer {
-    position: relative;
+    
+    margin-top: 50px ;
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+   
+    
+  }
+  .footer__links  {
+    display: flex;
+    align-items: center;
+    
+  }
+  .footer__links a {
+    
+   
+    margin: 10px;
   }
   
  
@@ -118,12 +136,17 @@
       left: -8rem;
       font-size: 1.1rem;
     }
+    .footer__links a {
+      margin-right: 10px ;
+    }
   }
   
   @media (max-width:375px) {
     .container {
       max-width: 370px;
     }
+   
+
   }
   
   @media (max-width:320px) {
